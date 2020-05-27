@@ -3,9 +3,6 @@ import {getUsers,getUser,addUser,updateUser,removeUser} from "./Controller/User.
 
 const routes = new Router();
 
-routes.get("/",(ctx)=>{
-    ctx.response.body = "Hello Pedro!"
-});
 
 routes.get("/users",getUsers);
 
